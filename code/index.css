@@ -196,11 +196,13 @@ svg, i{
     height: 20px;
     border: .5px grey solid;
     margin-right: 10px;
+    border-radius: 50%;
 }
 .dispo i{
     height: 15px;
     width: 15px;
     transform: translate(25%);
+    color:  #0065FC;;
 }
 .filtre button:hover{
     transition: .5s;
@@ -297,8 +299,6 @@ svg, i{
 h2{
     font-size: 20px;   
 }
-
-
 .rang{
     margin-top: 20px;
     width: 100%;
@@ -318,11 +318,9 @@ h2{
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
     height: 12px;
     margin-left: 0%;
     width: 9px;
-
 } 
 .hebergements .image{
     margin: 1% auto;
@@ -395,7 +393,6 @@ h2{
    height: 95%;
    width: 45%;
    margin-left: 1%;
-   
 }
 .populaires img{
     object-position: 50% 50%;
@@ -665,7 +662,11 @@ footer ul li{
     }
     .prix{
         font-size: 17px;
+        margin-top: 5px;
     }
+    .populaires .note i{
+         margin-left: 3px;
+    } 
     
     /* FIN SECTION POPULAIRE ----------------------------------------------------*/
 
@@ -704,6 +705,7 @@ footer ul li{
     .hebergements .vignette .note{
         width: 20%;
     }
+   
 
      /* FIN HEBERGEMENT --------------------------------------------------------------*/
 
@@ -714,7 +716,7 @@ footer ul li{
     /* SECTION ACTIVITE --------------------------------------------------------*/
     #ligne2{
     height: auto;  
-    margin-top: 50px auto; 
+    margin-top: 50px; 
     /* border: solid 1px; */
     width: 100%;
     min-width: 560px;
